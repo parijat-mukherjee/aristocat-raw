@@ -177,6 +177,9 @@
 .footer {
   position: absolute;
   background-color: #150025;
+  width: 100%;
+  height: 50vh;
+  top: 99.99%;
 }
 
 /* Media Queries */
@@ -275,12 +278,11 @@
   }
 
   .footer {
-    display: flex;
     position: absolute;
-    background-image: url("./pics/footer.png");
-    top: 99.99%;
+    background-color: #150025;
     width: 100%;
     height: 100vh;
+    top: 99.99%;
   }
 }
 
@@ -378,12 +380,11 @@
   }
 
   .footer {
-    display: flex;
     position: absolute;
-    background-image: url("./pics/footer.png");
-    top: 99.99%;
+    background-color: #150025;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
+    top: 99.99%;
   }
 }
 
@@ -481,12 +482,11 @@
   }
 
   .footer {
-    display: flex;
     position: absolute;
-    background-image: url("./pics/footer.png");
-    top: 99.99%;
+    background-color: #150025;
     width: 100%;
     height: 100vh;
+    top: 99.99%;
   }
 }
 
@@ -584,12 +584,11 @@
   }
 
   .footer {
-    display: flex;
     position: absolute;
-    background-image: url("./pics/footer.png");
-    top: 99.99%;
+    background-color: #150025;
     width: 100%;
     height: 100vh;
+    top: 99.99%;
   }
 }
 
@@ -673,11 +672,10 @@
   }
 
   .footer {
-    display: flex;
     position: absolute;
-    background-image: url("./pics/footer.png");
-    top: 99.99%;
+    background-color: #150025;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
+    top: 99.99%;
   }
 }
