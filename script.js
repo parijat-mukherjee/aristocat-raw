@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   let totalHeight = document.body.scrollHeight;
   let windowHeight = window.innerHeight;
-  let stopScrollRatio = 1.8; //based on trial-and-error
+  let stopScrollRatio = 1.6; //based on trial-and-error
 
   function updateVariables() {
     totalHeight = document.body.scrollHeight;
