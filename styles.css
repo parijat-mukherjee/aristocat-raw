@@ -203,6 +203,9 @@
 }
 
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   background-color: #150025;
   width: 100%;
@@ -301,23 +304,75 @@
   .spray-painter {
     display: flex;
     position: absolute;
-    top: 85%;
-    left: 9%;
+    top: 80%;
+    left: 3%;
   }
 
   .spray-painter-img {
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 30%;
+    max-height: 30%;
+    width: auto;
+    height: auto;
+  }
+
+  .disc-jockey {
+    display: flex;
+    position: absolute;
+    top: 89.25%;
+    left: 73.25%;
+  }
+
+  .disc-jockey-img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+  }
+
+  .spider-bot {
+    display: flex;
+    position: absolute;
+    top: 94%;
+    left: 25%;
+  }
+
+  .spider-bot-img {
+    max-width: 25%;
+    max-height: 25%;
+    width: auto;
+    height: auto;
+  }
+
+  .green-bot {
+    display: flex;
+    position: absolute;
+    top: 95%;
+    left: 60%;
+  }
+
+  .green-bot-img {
+    max-width: 45%;
+    max-height: 45%;
     width: auto;
     height: auto;
   }
 
   .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     position: absolute;
     background-color: #150025;
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     top: 99.99%;
+  }
+
+  .aristocat-studio-img {
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
   }
 }
 
@@ -403,8 +458,8 @@
   .spray-painter {
     display: flex;
     position: absolute;
-    top: 84.5%;
-    left: 8%;
+    top: 84%;
+    left: 7.5%;
   }
 
   .spray-painter-img {
@@ -414,12 +469,63 @@
     height: auto;
   }
 
+  .disc-jockey {
+    display: flex;
+    position: absolute;
+    top: 89.25%;
+    left: 73.25%;
+  }
+
+  .disc-jockey-img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+  }
+
+  .spider-bot {
+    display: flex;
+    position: absolute;
+    top: 94%;
+    left: 25%;
+  }
+
+  .spider-bot-img {
+    max-width: 30%;
+    max-height: 30%;
+    width: auto;
+    height: auto;
+  }
+
+  .green-bot {
+    display: flex;
+    position: absolute;
+    top: 94.5%;
+    left: 60%;
+  }
+
+  .green-bot-img {
+    max-width: 45%;
+    max-height: 45%;
+    width: auto;
+    height: auto;
+  }
+
   .footer {
     position: absolute;
+    align-items: flex-start;
+    justify-content: center;
     background-color: #150025;
     width: 100%;
     height: 150vh;
     top: 99.99%;
+  }
+
+  .aristocat-studio-img {
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
   }
 }
 
@@ -505,11 +611,53 @@
   .spray-painter {
     display: flex;
     position: absolute;
-    top: 84.5%;
-    left: 8%;
+    top: 83%;
+    left: 6%;
   }
 
   .spray-painter-img {
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+  }
+
+  .disc-jockey {
+    display: flex;
+    position: absolute;
+    top: 89.25%;
+    left: 73.25%;
+  }
+
+  .disc-jockey-img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+  }
+
+  .spider-bot {
+    display: flex;
+    position: absolute;
+    top: 94%;
+    left: 25%;
+  }
+
+  .spider-bot-img {
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
+  }
+
+  .green-bot {
+    display: flex;
+    position: absolute;
+    top: 94.5%;
+    left: 60%;
+  }
+
+  .green-bot-img {
     max-width: 45%;
     max-height: 45%;
     width: auto;
@@ -517,11 +665,21 @@
   }
 
   .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     position: absolute;
     background-color: #150025;
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     top: 99.99%;
+  }
+
+  .aristocat-studio-img {
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
   }
 }
 
@@ -607,23 +765,75 @@
   .spray-painter {
     display: flex;
     position: absolute;
-    top: 84.5%;
-    left: 8%;
+    top: 83%;
+    left: 6.5%;
   }
 
   .spray-painter-img {
-    max-width: 45%;
-    max-height: 45%;
+    max-width: 60%;
+    max-height: 60%;
+    width: auto;
+    height: auto;
+  }
+
+  .disc-jockey {
+    display: flex;
+    position: absolute;
+    top: 89.25%;
+    left: 73.25%;
+  }
+
+  .disc-jockey-img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+  }
+
+  .spider-bot {
+    display: flex;
+    position: absolute;
+    top: 94%;
+    left: 25%;
+  }
+
+  .spider-bot-img {
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+  }
+
+  .green-bot {
+    display: flex;
+    position: absolute;
+    top: 94%;
+    left: 60%;
+  }
+
+  .green-bot-img {
+    max-width: 60%;
+    max-height: 60%;
     width: auto;
     height: auto;
   }
 
   .footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     position: absolute;
     background-color: #150025;
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
     top: 99.99%;
+  }
+
+  .aristocat-studio-img {
+    max-width: 40%;
+    max-height: 40%;
+    width: auto;
+    height: auto;
   }
 }
 
@@ -702,6 +912,62 @@
   .testimonial-img {
     max-width: 80%;
     max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .spray-painter {
+    display: flex;
+    position: absolute;
+    top: 83%;
+    left: 6%;
+  }
+
+  .spray-painter-img {
+    max-width: 80%;
+    max-height: 80%;
+    width: auto;
+    height: auto;
+  }
+
+  .disc-jockey {
+    display: flex;
+    position: absolute;
+    top: 89.25%;
+    left: 73.25%;
+  }
+
+  .disc-jockey-img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+  }
+
+  .spider-bot {
+    display: flex;
+    position: absolute;
+    top: 94%;
+    left: 20%;
+  }
+
+  .spider-bot-img {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+  }
+
+  .green-bot {
+    display: flex;
+    position: absolute;
+    top: 94.5%;
+    left: 60%;
+  }
+
+  .green-bot-img {
+    max-width: 90%;
+    max-height: 90%;
     width: auto;
     height: auto;
   }
