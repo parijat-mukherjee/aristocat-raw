@@ -64,3 +64,15 @@ document.addEventListener("DOMContentLoaded", function () {
     updateVariables();
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  var scrollToTopBtn = document.getElementById("scrollUp");
+
+  scrollToTopBtn.addEventListener("click", function () {
+    // Scroll to the top of the page
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // You can use 'auto' instead of 'smooth' for an instant scroll
+    });
+  });
+});
