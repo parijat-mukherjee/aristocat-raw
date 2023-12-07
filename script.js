@@ -5,26 +5,34 @@ document.addEventListener("DOMContentLoaded", function () {
   const buildingTwoLayer = document.querySelector(".building-two");
   const buildingThreeLayer = document.querySelector(".building-three");
   const buildingMain = document.querySelector(".building-main");
-  const totalHeight = document.body.scrollHeight;
-  const stopScrollAt = totalHeight / 1.8;
+
+  let totalHeight = document.body.scrollHeight;
+  let windowHeight = window.innerHeight;
+  let stopScrollRatio = 1.8; //based on trial-and-error
+
+  function updateVariables() {
+    totalHeight = document.body.scrollHeight;
+    windowHeight = window.innerHeight;
+    stopScrollAt = totalHeight / stopScrollRatio;
+  }
+
+  updateVariables(); // Initial setup
 
   window.addEventListener("scroll", function () {
     const scrollPosition = Math.min(window.scrollY, stopScrollAt);
+    const scrollPercentage = scrollPosition / windowHeight;
 
     if (scrollPosition < stopScrollAt) {
-      // Cloud layer dips below silhouette layer
       const cloudSpeed = 0.2;
       const cloudYPos = scrollPosition * cloudSpeed;
       cloudLayer.style.transition = "transform 0.3s ease";
       cloudLayer.style.transform = `translateY(${cloudYPos}px)`;
 
-      // Silhouette layer remains fixed
       silhouetteLayer.style.transition = "none";
 
-      // Building layers scroll up with slight speed differences
-      const buildingSpeeds = [0.1, 0.2, 0.3, 0.4];
+      const buildingSpeeds = [0.1, 0.15, 0.2, 0.25];
       buildingSpeeds.forEach((speed, index) => {
-        const yPos = -scrollPosition * speed;
+        const yPos = -scrollPercentage * windowHeight * speed;
 
         switch (index) {
           case 0:
@@ -50,5 +58,9 @@ document.addEventListener("DOMContentLoaded", function () {
     } else {
       window.scrollTo(0, stopScrollAt);
     }
+  });
+
+  window.addEventListener("resize", function () {
+    updateVariables();
   });
 });
